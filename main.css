@@ -1,3 +1,25 @@
 body {
   background-color: aqua;
 }
+
+.card-container {
+  display: flex;
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  }
+
+.product-header {
+  border: solid 1px lightblue;
+}
+
+.availability {
+  width: 300px;
+  height: 50px;
+  background-color: gray;
+  color: yellow;
+  font-weight: bold;
+}
