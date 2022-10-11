@@ -1,5 +1,5 @@
 body {
-  background-color: green;
+  background-color: white;
 }
 
 .card-container {
@@ -10,8 +10,10 @@ body {
 
 .card {
   width: 300px;
-  height: 500px;
+  height: auto;
   background-color: white;
+  margin: 10px;
+  border: solid 1px lightblue;
   }
 
 .product-header {
@@ -24,17 +26,27 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  padding: 20px;
 }
 
 .description {
   text-align: justify;
   text-justify: inter-word;
+  padding: 5px 10px;;
 }
 
 .availability {
   width: 300px;
-  height: 50px;
   background-color: gray;
   color: yellow;
   font-weight: bold;
+  padding: 8px 4px;
+}
+
+.specs {
+
+}
+
+.pricing {
+
 }
