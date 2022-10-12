@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: lightcyan;
 }
 
 .card-container {
@@ -13,12 +13,15 @@ body {
   height: auto;
   background-color: white;
   margin: 10px;
-  border: solid 1px lightblue;
+  border: solid 1px navy;
+  font-family: 'Libre Baskerville', serif;
   }
 
 .product-header {
-  border: solid 1px lightblue;
+  border: solid 1px navy;
   text-align: center;
+  font-weight: 700;
+  font-size: x-large;
 }
 
 .image {
@@ -35,18 +38,25 @@ body {
   padding: 5px 10px;;
 }
 
-.availability {
-  width: 300px;
+.available, .sold-out {
+  width: 294px;
   background-color: gray;
   color: yellow;
   font-weight: bold;
   padding: 8px 4px;
 }
 
-.specs {
-
+.specs, .pricing {
+  padding: 0px 12px;
+  color: darkgreen;
 }
 
-.pricing {
+.size-weight, .quantities {
+  padding: 0px 20px;
+  font-size: 20px;
+}
 
+.footer {
+  padding: 5px;
+  font-style: italic;
 }
